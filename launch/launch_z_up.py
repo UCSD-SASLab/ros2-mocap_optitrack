@@ -3,7 +3,7 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 import os
 from ament_index_python.packages import get_package_share_directory
-
+log_level = 'info'
 def generate_launch_description():
     ld = LaunchDescription()
     #Create the NatNet client node
